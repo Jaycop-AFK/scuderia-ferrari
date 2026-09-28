@@ -1,0 +1,177 @@
+{
+  "testedAt": "2026-08-27T17:09:39.466Z",
+  "browser": "Codex in-app Chromium",
+  "checks": [
+    {
+      "progress": "39",
+      "scene": "speed",
+      "scrollY": 1909.5999755859375,
+      "test": "speed-second-beat",
+      "time": 3.848387
+    },
+    {
+      "progress": "32",
+      "scene": "speed",
+      "test": "speed-reverse",
+      "time": 3.161175
+    },
+    {
+      "progress": "56",
+      "scene": "engineering",
+      "test": "engineering",
+      "time": 5.6028
+    },
+    {
+      "disclaimer": true,
+      "progress": "84",
+      "test": "performance",
+      "time": 8.453517
+    },
+    {
+      "overflow": false,
+      "progress": "94",
+      "scene": "final",
+      "test": "final",
+      "time": 9.404295
+    },
+    {
+      "accessibleScenes": 8,
+      "mode": "reduced",
+      "paused": true,
+      "test": "reduced-before-scroll",
+      "time": 0
+    },
+    {
+      "headingBounds": {
+        "bottom": 255.0375061035156,
+        "height": 76.36250305175781,
+        "left": 24,
+        "right": 356,
+        "top": 178.6750030517578,
+        "width": 332,
+        "x": 24,
+        "y": 178.6750030517578
+      },
+      "overflow": false,
+      "progress": "84",
+      "scene": "performance",
+      "test": "mobile-performance",
+      "time": 8.45403,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "test": "360x640-all-chapters",
+      "results": [
+        {
+          "active": "opening",
+          "contentBottom": 383.8499984741211,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "opening",
+          "time": 0
+        },
+        {
+          "active": "focus",
+          "contentBottom": 321.37500762939453,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "focus",
+          "time": 1.821364
+        },
+        {
+          "active": "speed",
+          "contentBottom": 393.80001068115234,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "speed",
+          "time": 3.142479
+        },
+        {
+          "active": "machine",
+          "contentBottom": 393.80001068115234,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "machine",
+          "time": 4.443129
+        },
+        {
+          "active": "engineering",
+          "contentBottom": 374.8125228881836,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "engineering",
+          "time": 5.602799
+        },
+        {
+          "active": "assembly",
+          "contentBottom": 393.80001068115234,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "assembly",
+          "time": 7.144479
+        },
+        {
+          "active": "performance",
+          "contentBottom": 429.5625228881836,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "performance",
+          "time": 8.449677
+        },
+        {
+          "active": "final",
+          "contentBottom": 447.4124984741211,
+          "footerTop": 534,
+          "overflow": false,
+          "scene": "final",
+          "time": 9.400152
+        }
+      ]
+    },
+    {
+      "test": "844x390-landscape",
+      "results": [
+        {
+          "contentBottom": 280.4375,
+          "footerTop": 309.3999938964844,
+          "overflow": false,
+          "scene": "engineering"
+        },
+        {
+          "contentBottom": 298.4125061035156,
+          "footerTop": 309.3999938964844,
+          "overflow": false,
+          "scene": "performance"
+        },
+        {
+          "contentBottom": 284.83750915527344,
+          "footerTop": 309.3999938964844,
+          "overflow": false,
+          "scene": "final"
+        }
+      ]
+    },
+    {
+      "test": "browser-console",
+      "issues": []
+    },
+    {
+      "duration": 10.005,
+      "paused": true,
+      "progress": "100",
+      "scene": "final",
+      "test": "end-of-film",
+      "time": 9.988333
+    },
+    {
+      "progress": "0",
+      "scene": "opening",
+      "test": "full-reverse-to-opening",
+      "time": 0,
+      "visibleHeading": "BUILT FOR SPEED."
+    }
+  ]
+}

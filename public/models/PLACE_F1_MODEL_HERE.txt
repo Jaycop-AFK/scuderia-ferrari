@@ -1,0 +1,5 @@
+Later, place the optional F1 model here and rename it:
+
+f1-car.glb
+
+The model is not required for project setup.

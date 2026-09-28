@@ -1,0 +1,118 @@
+.section { position: relative; z-index: 1; background: #080909; color: var(--foreground); }
+.intro { min-height: 72svh; padding: 40px var(--gutter) 60px; display: flex; flex-direction: column; justify-content: center; background: linear-gradient(#050505, #101212); }
+.introTop, .introBottom, .profileTop, .profileBottom { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.introTop { margin-bottom: clamp(70px, 10svh, 140px); font: 10px var(--font-technical), monospace; letter-spacing: .09em; color: var(--muted); }
+.introTop a, .introBottom a, .profileBottom a, .endNote a { min-height: 44px; display: inline-flex; align-items: center; gap: 12px; }
+.intro a:hover, .profileBottom a:hover, .endNote a:hover { color: #fff; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 8px; }
+.kicker { display: flex; align-items: center; gap: 12px; margin: 0 0 20px; font: 11px var(--font-technical), monospace; letter-spacing: .13em; }
+.kicker i { width: 22px; height: 2px; background: var(--accent); }
+.introHeadline { display: flex; align-items: flex-start; gap: 24px; }
+.intro h2 { margin: 0; font-size: clamp(80px, 17vw, 290px); line-height: .85; letter-spacing: -.065em; font-weight: 800; }
+.intro h2 > span { color: var(--accent); }
+.driverCount { font: 12px var(--font-technical), monospace; color: var(--muted); margin-top: 10px; }
+.introBottom { border-top: 1px solid var(--border); margin-top: 45px; padding-top: 24px; align-items: flex-start; }
+.introBottom p { margin: 0; font-size: clamp(18px, 2vw, 28px); line-height: 1.35; letter-spacing: -.02em; }
+.introBottom p > span { color: var(--muted); }
+.introBottom nav { display: flex; gap: 30px; font: 10px var(--font-technical), monospace; }
+.introBottom nav a > span { color: var(--accent); }
+.profile { position: relative; height: max(760px, 100svh); overflow: clip; border-top: 1px solid #ffffff1f; background: radial-gradient(ellipse at 63% 42%, #272a2a 0%, #171919 35%, #0e1010 72%); }
+.profileTop { position: absolute; top: 0; left: var(--gutter); right: var(--gutter); height: 90px; z-index: 6; font: 10px var(--font-technical), monospace; letter-spacing: .08em; color: #babdb9; }
+.topDivider { color: #6d726e; padding: 0 14px; }
+.composition { position: absolute; inset: 0; }
+.number { position: absolute; left: 32%; top: 18%; font-weight: 800; font-size: clamp(320px, 48vw, 850px); line-height: .8; letter-spacing: -.085em; color: #343a37; opacity: .7; user-select: none; z-index: 1; }
+.nameBlock { position: absolute; left: var(--gutter); top: 39%; z-index: 5; }
+.profileIndex { display: flex; align-items: center; gap: 9px; margin: 0 0 25px; font: 10px var(--font-technical), monospace; letter-spacing: .1em; color: #bfc2bd; }
+.profileIndex > span { width: 4px; height: 4px; background: var(--accent); }
+.nameBlock h3 { margin: 0; }
+.name { position: relative; display: block; padding: 0; border: 0; background: transparent; color: #c2c5bf; font: 800 clamp(60px, 7.5vw, 136px)/.86 var(--font-editorial), sans-serif; letter-spacing: -.045em; text-align: left; }
+.name > span:not(.nameMarker) { display: block; }
+.name::after { content: ""; display: block; width: 38px; height: 2px; background: var(--accent); margin-top: 25px; transform: scaleX(.3); transform-origin: left; transition: transform .5s ease; }
+.profile[data-active="true"] .name::after { transform: scaleX(1); }
+.nameMarker { position: absolute; left: calc(100% + 12px); bottom: 20px; color: var(--accent); font-size: 35px; opacity: 0; transform: translateX(-8px); }
+.instruction { font: 9px var(--font-technical), monospace; letter-spacing: .1em; color: #a6aca6; margin-top: 23px; }
+.touchHint { display: none; }
+.portrait { position: absolute; left: 43%; width: 38%; top: 16%; bottom: 0; z-index: 3; background: none; border: 0; padding: 0; cursor: pointer; }
+.portraitArt, .shadowLayer, .colorLayer { display: block; position: absolute; inset: 0; }
+.portraitArt { transform-origin: center bottom; }
+.shadowLayer { opacity: 1; }
+/* Reveal vertically without clipping the portrait's natural width on tablets. */
+.colorLayer { opacity: 0; clip-path: inset(100% -100% 0% -100%); }
+.portraitImage { position: absolute; left: 50%; width: auto; max-width: none; object-fit: contain; pointer-events: none; user-select: none; }
+.identity { position: absolute; z-index: 5; left: var(--gutter); bottom: 12%; font: 10px/1.8 var(--font-technical), monospace; letter-spacing: .055em; color: #b7bdb6; }
+.identity p { margin: 0; }
+.identity p:first-child { color: #f5f5f2; margin-bottom: 4px; }
+.identity span { padding: 0 8px; color: #697168; }
+.callouts { position: absolute; inset: 0; z-index: 4; pointer-events: none; --label-width: clamp(145px, 15vw, 210px); }
+.callout { position: absolute; inset: 0; }
+.leader { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.leader path { fill: none; stroke: #b7bdb2; stroke-width: .08; stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0; }
+.leader ellipse { fill: var(--accent); opacity: 0; }
+.calloutBox { position: absolute; width: var(--label-width); padding: 12px 15px; background: rgba(5,5,5,.78); border: 1px solid rgba(255,255,255,.22); transform: scaleX(0); opacity: 0; transform-origin: right center; }
+.driver .calloutBox { right: 48%; top: calc(15% - 31px); }
+.number.callout { left: 0; top: 0; font: inherit; opacity: 1; color: inherit; }
+.number .calloutBox { right: 57%; top: calc(78% - 31px); }
+.team .calloutBox { left: 81%; top: calc(39% - 31px); transform-origin: left center; }
+.code .calloutBox { left: 81%; top: calc(79% - 31px); transform-origin: left center; }
+.calloutBox dl { margin: 0; opacity: 0; transform: translateY(5px); }
+.calloutBox dt { font: 10px var(--font-technical), monospace; letter-spacing: .08em; color: #a8a8a8; }
+.calloutBox dd { margin: 7px 0 0; font: 500 15px/1.2 var(--font-technical), monospace; letter-spacing: -.03em; }
+.mobileFacts { display: none; }
+.profileBottom { position: absolute; bottom: 0; left: var(--gutter); right: var(--gutter); z-index: 6; height: 72px; font: 9px var(--font-technical), monospace; letter-spacing: .07em; color: #aeb5ac; }
+.profileBottom > span { display: flex; align-items: center; gap: 8px; }
+.profileBottom i { width: 4px; height: 4px; background: #727a6e; border-radius: 50%; }
+.profile[data-active="true"] .profileBottom i { background: var(--accent); }
+.profileBottom a { color: #e1e6dc; }
+.endNote { padding: 45px var(--gutter); display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+.endNote > span { font-size: 20px; font-weight: 700; letter-spacing: -.04em; }
+.endNote p, .endNote a { color: #a8a8a8; font: 9px/1.6 var(--font-technical), monospace; letter-spacing: .05em; }
+@media (min-width: 701px) and (max-width: 1100px) {
+  .profile { height: max(740px, 95svh); }
+  .portrait { left: 40%; width: 42%; top: 23%; }
+  .name { font-size: 8.2vw; }
+  .callouts { --label-width: 145px; }
+  .number.callout { display: none; }
+  .team .calloutBox, .code .calloutBox { left: auto; right: 3%; }
+  .team .calloutBox { top: calc(18% - 31px); }
+  .team .leader { transform: translateY(-21%); }
+  .calloutBox dd { font-size: 13px; }
+  .identity { bottom: 17%; font-size: 9px; }
+  .introBottom nav { flex-direction: column; gap: 0; }
+}
+@media (max-width: 700px) {
+  .intro { min-height: 65svh; padding-top: 25px; padding-bottom: 45px; }
+  .introTop { font-size: 8px; margin-bottom: 65px; gap: 12px; }
+  .introTop a { font-size: 7px; }
+  .kicker { font-size: 9px; margin-bottom: 18px; }
+  .intro h2 { font-size: 20vw; }
+  .introHeadline { gap: 10px; }
+  .driverCount { font-size: 8px; margin-top: 3px; }
+  .introBottom { flex-direction: column; gap: 22px; margin-top: 30px; }
+  .introBottom nav { flex-direction: column; gap: 0; font-size: 9px; }
+  .profile { height: auto; min-height: 100svh; padding: 0 var(--gutter); }
+  .profileTop { position: relative; left: auto; right: auto; height: 74px; font-size: 8px; gap: 12px; }
+  .topDivider { padding: 0 5px; }
+  .profileTop > span:last-child { white-space: nowrap; }
+  .composition { position: relative; display: flex; flex-direction: column; }
+  .nameBlock { position: relative; left: auto; top: auto; padding-top: 22px; }
+  .profileIndex { font-size: 8px; margin-bottom: 18px; }
+  .name { font-size: clamp(48px, 15vw, 96px); }
+  .name::after { margin-top: 17px; width: 28px; }
+  .nameMarker { font-size: 24px; bottom: 13px; left: calc(100% + 10px); }
+  .instruction { font-size: 7px; margin-top: 16px; line-height: 1.5; }
+  .fineHint { display: none; }
+  .touchHint { display: inline; }
+  .number { left: 2%; top: 250px; font-size: 90vw; }
+  .portrait { position: relative; left: auto; top: auto; bottom: auto; width: 100%; height: clamp(370px, 60svh, 620px); margin-top: 25px; }
+  .portraitArt { max-width: 100%; }
+  .callouts, .identity { display: none; }
+  .mobileFacts { position: relative; z-index: 5; display: grid; grid-template-columns: 1fr; margin: 0; padding: 20px 0 12px; background: #101212; border-top: 1px solid #ffffff30; }
+  .mobileFacts > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 11px 0; border-bottom: 1px solid #ffffff16; }
+  .mobileFacts dt { font: 8px/1.5 var(--font-technical), monospace; color: #a8a8a8; letter-spacing: .04em; }
+  .mobileFacts dd { margin: 0; font: 11px/1.5 var(--font-technical), monospace; color: #e6e9e1; text-align: right; }
+  .profileBottom { position: relative; left: auto; right: auto; height: 76px; gap: 12px; font-size: 7px; }
+  .endNote { flex-wrap: wrap; gap: 15px; padding-top: 30px; padding-bottom: 30px; }
+  .endNote p { font-size: 7px; }
+}
+@media (hover: none), (pointer: coarse) { .fineHint { display: none; } .touchHint { display: inline; } }
+.section[data-reduced-motion="true"] .name::after { transition: none; }
+@media (prefers-reduced-motion: reduce) { .name::after { transition: none; } }

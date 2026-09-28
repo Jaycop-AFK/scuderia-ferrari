@@ -1,0 +1,1006 @@
+{
+  "date": "2026-08-28",
+  "browser": "In-app Chromium",
+  "samples": [
+    {
+      "test": "desktop mouse leave",
+      "state": {
+        "focus": "FORMULA // PERFORMANCE 001BUILTFORSPEED.A machine designed wherea thousandth of a second matters.SCR",
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "desktop reveal at 150ms",
+      "state": {
+        "focus": "FORMULA // PERFORMANCE 001BUILTFORSPEED.A machine designed wherea thousandth of a second matters.SCR",
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(40.0893% 0% 0%)",
+            "color": "0.5991",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "0.4692"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "desktop name hover complete",
+      "state": {
+        "focus": "FORMULA // PERFORMANCE 001BUILTFORSPEED.A machine designed wherea thousandth of a second matters.SCR",
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "desktop reverse complete",
+      "state": {
+        "focus": "FORMULA // PERFORMANCE 001BUILTFORSPEED.A machine designed wherea thousandth of a second matters.SCR",
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "desktop number hover",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BODY"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "desktop portrait hover",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BODY"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "keyboard focus name",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "keyboard escape",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "keyboard focus portrait",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      },
+      "note": "Native Tab delivery was not reliable; this sample does not validate traversal."
+    },
+    {
+      "test": "keyboard leave triggers",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      },
+      "note": "Native Tab delivery was not reliable; this sample does not validate traversal."
+    },
+    {
+      "test": "next driver navigation",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "leclerc",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    },
+    {
+      "test": "tablet 768px portrait hover, three callouts",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "leclerc",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          }
+        ],
+        "viewport": [
+          768,
+          1024
+        ]
+      }
+    },
+    {
+      "test": "mobile 390px first tap",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "leclerc",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "test": "mobile 390px second tap",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "test": "mobile 360px Hamilton tap",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% 0% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      }
+    },
+    {
+      "test": "reduced motion mobile tap immediate",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      },
+      "note": "Pre-fix diagnostic; superseded by final reduced-motion cross-target tests."
+    },
+    {
+      "test": "reduced motion portrait second tap immediate",
+      "state": {
+        "focus": {
+          "label": "Reveal LEWIS HAMILTON portrait",
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      },
+      "note": "Pre-fix diagnostic; superseded by final reduced-motion cross-target tests."
+    },
+    {
+      "test": "reduced motion focus reveals instantly",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0% -100%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      }
+    },
+    {
+      "test": "reduced motion tap closes instantly",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      }
+    },
+    {
+      "test": "reduced motion switching target opens instantly",
+      "state": {
+        "focus": {
+          "label": "Reveal LEWIS HAMILTON portrait",
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0% -100%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          360,
+          640
+        ]
+      }
+    },
+    {
+      "test": "final tablet mask and three callouts",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BODY"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "true",
+            "clip": "inset(0% -100%)",
+            "color": "1",
+            "id": "leclerc",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          }
+        ],
+        "viewport": [
+          768,
+          1024
+        ]
+      }
+    },
+    {
+      "test": "final mobile name tap reveals",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "true",
+            "clip": "inset(0% -100%)",
+            "color": "1",
+            "id": "leclerc",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "test": "final mobile portrait tap closes after name",
+      "state": {
+        "focus": {
+          "label": "Reveal CHARLES LECLERC portrait",
+          "tag": "BUTTON"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "hamilton",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "test": "final desktop name reveal",
+      "state": {
+        "focus": {
+          "label": null,
+          "tag": "BODY"
+        },
+        "overflow": false,
+        "profiles": [
+          {
+            "active": "true",
+            "clip": "inset(0% -100%)",
+            "color": "1",
+            "id": "hamilton",
+            "lines": [
+              "0px",
+              "0px",
+              "0px",
+              "0px"
+            ],
+            "shadow": "0.2"
+          },
+          {
+            "active": "false",
+            "clip": "inset(100% -100% 0%)",
+            "color": "0",
+            "id": "leclerc",
+            "lines": [
+              "1px",
+              "1px",
+              "1px",
+              "1px"
+            ],
+            "shadow": "1"
+          }
+        ],
+        "viewport": [
+          1440,
+          900
+        ]
+      }
+    }
+  ]
+}
